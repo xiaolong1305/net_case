@@ -148,7 +148,7 @@ int card_probe(card_t *card)
 	card->is_ctrl = 0;
 
 	card_reset_dma(card);
-	ret = rtx_init(card);
+	//ret = rtx_init(card);
 
 	return 0;
 }
